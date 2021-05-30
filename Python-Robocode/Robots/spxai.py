@@ -10,9 +10,9 @@ class Demo(Robot): #Create a Robot
         
         
         #Set the bot color in RGB
-        self.setColor(0, 0, 0)
-        self.setGunColor(0, 0, 0)
-        self.setRadarColor(0,0, 0)
+        self.setColor(0, 0, 255)
+        self.setGunColor(0, 0, 255)
+        self.setRadarColor(0,0, 255)
         self.setBulletsColor(0, 200, 100)
         
         #get the map size
